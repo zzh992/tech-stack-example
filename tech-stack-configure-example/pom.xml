@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tech.stack.configure.example</groupId>
+	<artifactId>tech-stack-configure-example</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>tech-stack-configure-example</name>
+	<description>tech-stack-configure-example</description>
+	
+	<dependencies>
+	
+		<!-- MVC module :选择MVC实现 -->
+		<dependency>
+			<groupId>tech.stack.pms.struts2</groupId>
+			<artifactId>tech-stack-pms-struts2</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>tech.stack.pms.springMVC</groupId>
+			<artifactId>tech-stack-pms-springMVC</artifactId>
+			<version>0.0.1</version>
+		</dependency> -->
+		
+		<!-- DAO module :选择持久层实现 -->
+		<dependency>
+			<groupId>tech.stack.pms.mybatis</groupId>
+			<artifactId>tech-stack-pms-mybatis</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>tech.stack.pms.jpa</groupId>
+			<artifactId>tech-stack-pms-jpa</artifactId>
+			<version>0.0.1</version>
+		</dependency> -->
+		
+		<!-- tech-stack-component module :已经在MVC实现中默认依赖了 -->
+		
+		<!-- JDBC相关库 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.12</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.34</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.3.176</version>
+			<scope>runtime</scope>
+		</dependency> -->
+		
+		<!-- jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty.aggregate</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>8.1.16.v20140903</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-jsp</artifactId>
+			<version>8.1.16.v20140903</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- unit test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.5</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<version>3.0</version>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+					<showWarnings>true</showWarnings>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
