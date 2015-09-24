@@ -10,8 +10,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>tech.stack.pms.struts2</groupId>
-			<artifactId>tech-stack-pms-struts2</artifactId>
+			<groupId>tech.stack.pms.springMVC</groupId>
+			<artifactId>tech-stack-pms-springMVC</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		

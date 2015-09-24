@@ -53,7 +53,7 @@
 	</filter-mapping>  
 	
 	<!-- Struts2过滤器 -->
-	<filter>
+	<!-- <filter>
 		<filter-name>Struts2</filter-name>
 		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
 	</filter>
@@ -63,9 +63,9 @@
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>FORWARD</dispatcher>
 		<dispatcher>INCLUDE</dispatcher>
-	</filter-mapping>
+	</filter-mapping> -->
 
-	<!-- <servlet>
+	<servlet>
 		<servlet-name>springmvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
@@ -78,7 +78,7 @@
 	<servlet-mapping>
 		<servlet-name>springmvc</servlet-name>
 		<url-pattern>/</url-pattern>
-	</servlet-mapping> -->
+	</servlet-mapping>
 
 
 	<!-- Session会话时间设置 -->
