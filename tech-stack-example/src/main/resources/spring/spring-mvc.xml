@@ -25,7 +25,7 @@
 	<!-- 容器默认的DefaultServletHandler处理 所有静态内容与无RequestMapping处理的URL -->
 	<mvc:default-servlet-handler />
 
-	<context:component-scan base-package="com.techstack.pms.springmvc.web" />
+	<context:component-scan base-package="com.techstack.pms.springmvc" />
 	
 	<bean id="operateResult" class="org.springframework.web.servlet.view.InternalResourceView">  
 	   <property name="url" value="classpath:dwz/operateResult.jsp"/>  
