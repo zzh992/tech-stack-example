@@ -3,7 +3,7 @@
 <header class="navbar navbar-default navbar-static-top">
 	<!-- start: NAVBAR COLLAPSE -->
 	<div class="navbar-collapse collapse">
-		<h1>xx 综合管理系统</h1>
+		<h1>Tech Stack Admin</h1>
 	</div>
 	<!-- end: NAVBAR COLLAPSE -->
 </header>

@@ -5,69 +5,42 @@
 		<nav>
 			<!-- start: MAIN NAVIGATION MENU -->
 			<div class="navbar-title">
-				<span>菜单</span>
+				<span>Main Navigation</span>
 			</div>
 			<ul class="main-navigation-menu">
 				<li>
-					<a href="${ctx}/modules/worktype/worktype-list.jsp">
+					<a href="javascript:void(0)">
 						<div class="item-content">
 							<div class="item-media">
-								<i class="ti-home"></i>
+								<i class="ti-layout-grid2"></i>
 							</div>
 							<div class="item-inner">
-								<span class="title"> 工种信息管理 </span>
+								<span class="title"> User Management </span><i class="icon-arrow"></i>
 							</div>
 						</div>
 					</a>
-				</li>
-				
-				<li>
-					<a href="${ctx}/modules/teacher/teacher-list.jsp">
-						<div class="item-content">
-							<div class="item-media">
-								<i class="ti-location-pin"></i>
-							</div>
-							<div class="item-inner">
-								<span class="title"> 顾问老师管理 </span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="${ctx}/modules/course/course-list.jsp">
-						<div class="item-content">
-							<div class="item-media">
-								<i class="ti-pie-chart"></i>
-							</div>
-							<div class="item-inner">
-								<span class="title"> 分课信息管理 </span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="${ctx}/modules/student/searchStudent.jsp">
-						<div class="item-content">
-							<div class="item-media">
-								<i class="ti-pie-chart"></i>
-							</div>
-							<div class="item-inner">
-								<span class="title"> 学生信息管理 </span>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="${ctx}/modules/cost/cost-list.jsp">
-						<div class="item-content">
-							<div class="item-media">
-								<i class="ti-pie-chart"></i>
-							</div>
-							<div class="item-inner">
-								<span class="title"> 缴费信息管理 </span>
-							</div>
-						</div>
-					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="${ctx}/admin/menuManagement/menu-list.jsp">
+								<span class="title">Menu Management</span>
+							</a>
+						</li>
+						<li>
+							<a href="table_responsive.html">
+								<span class="title">Permission Management</span>
+							</a>
+						</li>
+						<li>
+							<a href="table_data.html">
+								<span class="title">Role Management</span>
+							</a>
+						</li>
+						<li>
+							<a href="table_data.html">
+								<span class="title">User Management</span>
+							</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 			<!-- end: MAIN NAVIGATION MENU -->

@@ -48,7 +48,7 @@
 <script src="${ctx}/resource/switchery/switchery.min.js"></script>
 <script src="${ctx}/resource/jquery-restful/jquery.restful.js"></script>
 <script src="${ctx}/resource/clip-two/js/main.js"></script>
-<script src="${ctx}/modules/home.js"></script>
+<script src="${ctx}/admin/home.js"></script>
 <script src="${ctx}/resource/datePicker/bootstrap-datetimepicker.min.js"></script>
 <script src="${ctx}/resource/datePicker/bootstrap-datetimepicker.zh-CN.js"></script>
 <script>

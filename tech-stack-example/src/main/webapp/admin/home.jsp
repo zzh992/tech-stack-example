@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<title>Login</title>
+<title>Home</title>
 
 </head>
 
 <body>
-	<div style="padding-top: 20px;"><h1>欢迎使用本系统</h1></div>
+	<div style="padding-top: 20px;"><h1>Welcome</h1></div>
 </body>
 </html>
